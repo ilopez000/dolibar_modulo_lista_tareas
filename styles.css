@@ -1,0 +1,59 @@
+/* Estilos generales */
+
+body {
+  font-family: sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+th {
+  text-align: center;
+}
+
+/* Estilos específicos del módulo */
+
+.mymodulotasklist_index {
+  text-align: center;
+}
+
+.mymodulotasklist_list {
+  margin-top: 20px;
+}
+
+.mymodulotasklist_create {
+  margin-top: 20px;
+}
+
+.mymodulotasklist_create form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.mymodulotasklist_create form input,
+.mymodulotasklist_create form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.mymodulotasklist_create form button {
+  margin-top: 10px;
+}
+
+/* Estilos para los estados de las tareas */
+
+.pendiente {
+  color: red;
+}
+
+.completada {
+  color: green;
+}
